@@ -42,7 +42,6 @@ Outputs:
 5. **Mapping integrity** (StockCode exists in product master)
 6. **Outliers** (UnitPrice far from reference)
 
-## “How to talk about this in an interview”
 **Problem:** reporting was inconsistent because source data had duplicates/missing fields/mismatches.  
 **Approach:** defined validation rules + exception log + weekly quality score.  
 **Impact:** faster reporting, fewer errors, clearer ownership (who fixes what).
